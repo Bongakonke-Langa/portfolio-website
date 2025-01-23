@@ -1,0 +1,16 @@
+{
+  "name": "bongakonke-portfolio",
+  "version": "1.0.0",
+  "description": "Bongakonke Langa's Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  }
+}
