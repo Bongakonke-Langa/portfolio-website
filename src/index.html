@@ -3,27 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bongakonke Langa - Portfolio</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>Responsive Portfolio Website</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-brand">Bongakonke Langa</div>
-        <ul class="nav-links">
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <a href="index.html" class="logo">Bongakonke</a>
+        <!-- <span>Langa</span> -->
 
-    <main class="hero">
-        <div class="hero-content">
-            <h1>Welcome to My Portfolio</h1>
-            <h2>Hi, I'm Bongakonke Langa</h2>
-            <p class="hero-text">I'm passionate about creating amazing digital experiences</p>
-            <a href="about.html" class="cta-button">Learn More About Me</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">testimonials</a></li>
+                <li><a href="services.html">services</a></li>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Bongakonke</span></h1>
+            <h3 class="text-animation">I'm a<span></span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam eveniet eum adipisci vitae ab officia quidem molestias accusantium itaque deleniti id provident possimus vero assumenda, sit perferendis! Deleniti, minus.</p>
+
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+
+            <div class="btn-group">
+                <a href="#" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Let's Talk</a>
+            </div>
         </div>
-    </main>
+
+        <div class="home-img">
+            <img src="images/profile.png" alt="Profile">
+        </div>
+    </section>
 
     <footer>
         <p>&copy; 2025 Bongakonke Langa. All rights reserved.</p>
