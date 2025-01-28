@@ -39,6 +39,23 @@ body {
   align-items: center;
   z-index: 5;
 }
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header nav ul li a:hover {
+  color: #ccc;
+}
 
 .logo {
   font-size: 3rem;
