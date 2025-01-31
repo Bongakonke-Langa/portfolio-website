@@ -464,28 +464,34 @@ span {
   width: 15px;
 
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
   background-color: var(--bg-color);
   width: 50px;
 }
-.services{
+
+.services {
   background-color: var(--bg-color);
   color: black;
 }
-.services h2{
+
+.services h2 {
   margin-bottom: 5rem;
   color: white;
 }
-.services-container{
+
+.services-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
-.service-box{
+
+.service-box {
   background-color: var(--main-color);
   height: 200px;
   border: 5px solid transparent;
@@ -494,13 +500,15 @@ span {
   cursor: pointer;
   transition: 0.4s ease-in-out
 }
-.service-box:hover{
+
+.service-box:hover {
   background: white;
   color: black;
   transform: scale(1.05);
   border: 5px solid var(--main-color);
 }
-.service-box .service-info{
+
+.service-box .service-info {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -509,15 +517,79 @@ span {
   align-items: baseline;
   padding: 5rem 5rem;
 }
-.service-info h4{
+
+.service-info h4 {
   line-height: 2;
   font-size: 3rem;
   font-weight: 800;
 }
-.service-info p{
+
+.service-info p {
   font-size: 1.4rem;
   font-weight: 600;
   max-height: 100px;
   line-height: 1.4;
   margin: auto;
+}
+
+.testimonials {
+  background-color: var(--bg-color);
+}
+
+.testimonials-box {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonials .header {
+  margin-bottom: 5rem;
+}
+
+.testimonials-box img {
+  width: 15rem;
+  border-radius: 50%;
+  border: 3px solid var(--main-color);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.testimonials-items {
+min-height: 550px;
+max-width: 450px;
+background: black;
+border: 3px solid rgba(238, 238, 238, 0.2);
+border-radius: 2rem;
+margin: 0 2rem;
+padding: 30px 60px;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 1.5rem;
+color: white;
+transition: 0.4s ease-in-out;
+}
+.testimonials-items:hover {
+  border: 3px solid var(--main-color);
+  transform:translateY(-10px) scale(1.05);
+  box-shadow: 0 0 50px var(--main-color);
+}
+.testimonials-items h2 {
+  font-size: 2.8rem;
+}
+.testimonials-items p {
+  font-size: 1.3rem;
+}
+#star {
+  color: gold;
+  font-size: 2rem;
 }
