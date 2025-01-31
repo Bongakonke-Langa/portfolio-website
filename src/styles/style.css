@@ -471,3 +471,53 @@ span {
   background-color: var(--bg-color);
   width: 50px;
 }
+.services{
+  background-color: var(--bg-color);
+  color: black;
+}
+.services h2{
+  margin-bottom: 5rem;
+  color: white;
+}
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+.service-box{
+  background-color: var(--main-color);
+  height: 200px;
+  border: 5px solid transparent;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px var(--main-color);
+  cursor: pointer;
+  transition: 0.4s ease-in-out
+}
+.service-box:hover{
+  background: white;
+  color: black;
+  transform: scale(1.05);
+  border: 5px solid var(--main-color);
+}
+.service-box .service-info{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 200px;
+  justify-content: left;
+  align-items: baseline;
+  padding: 5rem 5rem;
+}
+.service-info h4{
+  line-height: 2;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.service-info p{
+  font-size: 1.4rem;
+  font-weight: 600;
+  max-height: 100px;
+  line-height: 1.4;
+  margin: auto;
+}
