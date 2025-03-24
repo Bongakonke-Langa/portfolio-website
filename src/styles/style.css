@@ -585,6 +585,7 @@ span {
 .project-items:hover {
   border: 3px solid var(--main-color);
   transform: translateY(-10px) scale(1.05);
+  transform: translateY(-10px) scale(1.05);
   box-shadow: 0 0 50px var(--main-color);
 } 
 
