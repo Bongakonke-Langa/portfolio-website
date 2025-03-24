@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me - Bongakonke Langa</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
     <header class="header">
@@ -12,25 +14,36 @@
 
         <i class="bx bx-menu" id="menu-icon"></i>
         <nav class="navbar">
-        <div class="container">
-            <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="contact.html" class="active">Contact</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-            <li><a href="services.html">Services</a></li>
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main class="content">
-        <div class="container">
-            <h1>Contact Me</h1>
-            <div class="contact-content">
-                <p>I'd love to hear from you! Whether you have a project in mind or just want to say hello, feel free to reach out using the form below or through my social media channels.</p>
-                <form class="contact-form">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class='bx bx-map'></i>
+                    <div class="info-text">
+                        <h3>Location</h3>
+                        <p>Johannesburg, South Africa</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bx-envelope'></i>
+                    <div class="info-text">
+                        <h3>Email</h3>
+                        <p>bongakonke@example.com</p>
                     </div>
                     <div class="form-group">
                         <label for="email">Email:</label>
