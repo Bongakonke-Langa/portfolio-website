@@ -1398,3 +1398,47 @@ span {
       margin-top: 2rem;
   }
 }
+/* Update header and home section spacing for smaller screens */
+@media (max-width: 480px) {
+  .header {
+      padding: 1.5rem 4%;
+  }
+
+  section {
+      padding: 8rem 4% 2rem;
+  }
+
+  .home {
+      padding-top: 8rem;
+  }
+
+  .home-content {
+      margin-top: 5rem;
+  }
+
+  .home-content h1 {
+      font-size: 3.5rem;
+  }
+
+  .home-content h3 {
+      font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .header {
+      padding: 1rem 4%;
+  }
+
+  .home {
+      padding-top: 3rem;
+  }
+
+  .home-content {
+      margin-top: 4rem;
+  }
+
+  .home-content h1 {
+      font-size: 3rem;
+  }
+}
